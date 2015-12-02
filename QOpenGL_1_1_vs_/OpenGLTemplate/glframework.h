@@ -105,13 +105,13 @@ private:
 	GLint current_viewport_matrix[4];
 	GLfloat gl_x, gl_y;
 	GLdouble objX, objY, objZ;
-	
+	int PointedFaceIdx;
 
 	void meshVertexRender(GLfloat x_coor, GLfloat y_coor);
 	void findNearestVertex(GLfloat objx, GLfloat objy, GLfloat objz);
 	void findNearestFace();
 	float getDistance(GLfloat verx, GLfloat very, GLfloat verz);
-
+	void drawCurrentFace();
 	void drawBorder();
 	//use iterator to select the point in the SelectPoint to Border
 	//only if the point from set SelectPoint's onering vv iterator 

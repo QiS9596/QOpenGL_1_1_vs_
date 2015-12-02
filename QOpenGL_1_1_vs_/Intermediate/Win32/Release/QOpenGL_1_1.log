@@ -1,4 +1,4 @@
-﻿Build started 2015/12/2 22:10:49.
+﻿Build started 2015/12/2 22:34:18.
      1>Project "C:\Users\John\Desktop\Qt+OpenMesh+Linear system\QOpenGL_1_1_vs_\QOpenGL_1_1_vs_\QOpenGL_1_1.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (.\Intermediate\Win32\Release\) contains files shared from another project (._QOpenGL_1_1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
@@ -27,11 +27,11 @@
      1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(237): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (Intermediate\Win32\Release\moc_glframework.cpp)
          Automatically linking with LinearSystemLib_MD.lib.
      1>OpenGLTemplate\glframework.cpp(105): warning C4100: 'e' : unreferenced formal parameter
-     1>OpenGLTemplate\glframework.cpp(361): warning C4101: 'color' : unreferenced local variable
-     1>OpenGLTemplate\glframework.cpp(378): warning C4100: 'objz' : unreferenced formal parameter
-     1>OpenGLTemplate\glframework.cpp(378): warning C4100: 'objy' : unreferenced formal parameter
-     1>OpenGLTemplate\glframework.cpp(378): warning C4100: 'objx' : unreferenced formal parameter
-     1>OpenGLTemplate\glframework.cpp(481): warning C4189: 'decrease' : local variable is initialized but not referenced
+     1>OpenGLTemplate\glframework.cpp(364): warning C4101: 'color' : unreferenced local variable
+     1>OpenGLTemplate\glframework.cpp(381): warning C4100: 'objz' : unreferenced formal parameter
+     1>OpenGLTemplate\glframework.cpp(381): warning C4100: 'objy' : unreferenced formal parameter
+     1>OpenGLTemplate\glframework.cpp(381): warning C4100: 'objx' : unreferenced formal parameter
+     1>OpenGLTemplate\glframework.cpp(485): warning C4189: 'decrease' : local variable is initialized but not referenced
      1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(40): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (mainwindow.cpp)
      1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(237): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (mainwindow.cpp)
          Automatically linking with LinearSystemLib_MD.lib.
@@ -156,4 +156,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.29
+Time Elapsed 00:00:04.43
