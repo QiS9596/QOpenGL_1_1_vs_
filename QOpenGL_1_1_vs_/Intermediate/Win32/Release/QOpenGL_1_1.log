@@ -1,0 +1,159 @@
+﻿Build started 2015/12/2 22:10:49.
+     1>Project "C:\Users\John\Desktop\Qt+OpenMesh+Linear system\QOpenGL_1_1_vs_\QOpenGL_1_1_vs_\QOpenGL_1_1.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (.\Intermediate\Win32\Release\) contains files shared from another project (._QOpenGL_1_1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I.\OpenMesh /I.\LinearSystem_2013\include /I.\OpenGLTemplate /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtWidgets /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtGui /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtANGLE /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtCore /I.\release /I"C:\Qt\Qt5.4.1\5.4\msvc2013_opengl\mkspecs\win32-msvc2013" /I.\Intermediate\Win32\Release /nologo /W3 /WX- /MP /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D _USE_MATH_DEFINES /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /D QT_DLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Intermediate\Win32\Release\\" /Fd".\Intermediate\Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 Intermediate\Win32\Release\qrc_textures.cpp
+         qrc_textures.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I.\OpenMesh /I.\LinearSystem_2013\include /I.\OpenGLTemplate /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtWidgets /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtGui /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtANGLE /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtCore /I.\release /I"C:\Qt\Qt5.4.1\5.4\msvc2013_opengl\mkspecs\win32-msvc2013" /I.\Intermediate\Win32\Release /nologo /W3 /WX- /MP /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D _USE_MATH_DEFINES /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /D QT_DLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Intermediate\Win32\Release\\" /Fd".\Intermediate\Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 Intermediate\Win32\Release\moc_glframework.cpp Intermediate\Win32\Release\moc_mainwindow.cpp OpenGLTemplate\camera.cpp OpenGLTemplate\glframework.cpp main.cpp mainwindow.cpp OpenMesh\openmeshframework.cpp OpenGLTemplate\trackballcamera.cpp OpenGLTemplate\transform.cpp
+         moc_glframework.cpp
+         moc_mainwindow.cpp
+         camera.cpp
+         glframework.cpp
+         main.cpp
+         mainwindow.cpp
+         openmeshframework.cpp
+         trackballcamera.cpp
+         transform.cpp
+     1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(40): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (OpenMesh\openmeshframework.cpp)
+     1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(237): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (OpenMesh\openmeshframework.cpp)
+         Automatically linking with LinearSystemLib_MD.lib.
+     1>OpenMesh\openmeshframework.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>OpenMesh\openmeshframework.cpp(72): warning C4018: '<' : signed/unsigned mismatch
+     1>OpenMesh\openmeshframework.cpp(67): warning C4189: 'result' : local variable is initialized but not referenced
+     1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(40): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (OpenGLTemplate\glframework.cpp)
+     1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(237): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (OpenGLTemplate\glframework.cpp)
+         Automatically linking with LinearSystemLib_MD.lib.
+     1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(40): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (Intermediate\Win32\Release\moc_glframework.cpp)
+     1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(237): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (Intermediate\Win32\Release\moc_glframework.cpp)
+         Automatically linking with LinearSystemLib_MD.lib.
+     1>OpenGLTemplate\glframework.cpp(105): warning C4100: 'e' : unreferenced formal parameter
+     1>OpenGLTemplate\glframework.cpp(361): warning C4101: 'color' : unreferenced local variable
+     1>OpenGLTemplate\glframework.cpp(378): warning C4100: 'objz' : unreferenced formal parameter
+     1>OpenGLTemplate\glframework.cpp(378): warning C4100: 'objy' : unreferenced formal parameter
+     1>OpenGLTemplate\glframework.cpp(378): warning C4100: 'objx' : unreferenced formal parameter
+     1>OpenGLTemplate\glframework.cpp(481): warning C4189: 'decrease' : local variable is initialized but not referenced
+     1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(40): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (mainwindow.cpp)
+     1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(237): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (mainwindow.cpp)
+         Automatically linking with LinearSystemLib_MD.lib.
+     1>mainwindow.cpp(26): warning C4100: 'obj' : unreferenced formal parameter
+     1>.\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(94): warning C4100: '_dst' : unreferenced formal parameter (OpenMesh\openmeshframework.cpp)
+                 .\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(89) : see reference to function template instantiation 'void OpenMesh::vector_cast<src_t,dst_t>(const src_t &,dst_t &,OpenMesh::GenProg::Int2Type<0>)' being compiled
+                 with
+                 [
+                     src_t=OpenMesh::Vec3f
+         ,            dst_t=OpenMesh::VectorT<double,3>
+                 ]
+                 .\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(89) : see reference to function template instantiation 'void OpenMesh::vector_cast<src_t,dst_t,1>(const src_t &,dst_t &,OpenMesh::GenProg::Int2Type<1>)' being compiled
+                 with
+                 [
+                     src_t=OpenMesh::Vec3f
+         ,            dst_t=OpenMesh::VectorT<double,3>
+                 ]
+                 .\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(89) : see reference to function template instantiation 'void OpenMesh::vector_cast<src_t,dst_t,2>(const src_t &,dst_t &,OpenMesh::GenProg::Int2Type<2>)' being compiled
+                 with
+                 [
+                     src_t=OpenMesh::Vec3f
+         ,            dst_t=OpenMesh::VectorT<double,3>
+                 ]
+                 .\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(125) : see reference to function template instantiation 'void OpenMesh::vector_cast<src_t,dst_t,3>(const src_t &,dst_t &,OpenMesh::GenProg::Int2Type<3>)' being compiled
+                 with
+                 [
+                     src_t=OpenMesh::Vec3f
+         ,            dst_t=OpenMesh::VectorT<double,3>
+                 ]
+                 .\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(123) : while compiling class template member function 'OpenMesh::VectorT<double,3> OpenMesh::vector_caster<OpenMesh::VectorT<double,3>,OpenMesh::Vec3f>::cast(const src_t &)'
+                 with
+                 [
+                     src_t=OpenMesh::Vec3f
+                 ]
+                 .\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(153) : see reference to function template instantiation 'OpenMesh::VectorT<double,3> OpenMesh::vector_caster<OpenMesh::VectorT<double,3>,OpenMesh::Vec3f>::cast(const src_t &)' being compiled
+                 with
+                 [
+                     src_t=OpenMesh::Vec3f
+                 ]
+                 .\OpenMesh\OpenMesh/Core/IO/importer/ImporterT.hh(101) : see reference to class template instantiation 'OpenMesh::vector_caster<OpenMesh::VectorT<double,3>,OpenMesh::Vec3f>' being compiled
+                 .\OpenMesh\OpenMesh/Core/IO/importer/ImporterT.hh(100) : while compiling class template member function 'OpenMesh::VertexHandle OpenMesh::IO::ImporterT<Mesh>::add_vertex(const OpenMesh::Vec3f &)'
+                 with
+                 [
+                     Mesh=OMT::MyTriMesh
+                 ]
+                 .\OpenMesh\OpenMesh/Core/IO/MeshIO.hh(140) : see reference to class template instantiation 'OpenMesh::IO::ImporterT<Mesh>' being compiled
+                 with
+                 [
+                     Mesh=OMT::MyTriMesh
+                 ]
+                 OpenMesh\openmeshframework.cpp(27) : see reference to function template instantiation 'bool OpenMesh::IO::read_mesh<OMT::MyTriMesh>(Mesh &,const std::string &,OpenMesh::IO::Options &,bool)' being compiled
+                 with
+                 [
+                     Mesh=OMT::MyTriMesh
+                 ]
+     1>.\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(94): warning C4100: '_src' : unreferenced formal parameter (OpenMesh\openmeshframework.cpp)
+     1>.\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(94): warning C4100: '_dst' : unreferenced formal parameter (OpenGLTemplate\glframework.cpp)
+                 .\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(89) : see reference to function template instantiation 'void OpenMesh::vector_cast<src_t,dst_t>(const src_t &,dst_t &,OpenMesh::GenProg::Int2Type<0>)' being compiled
+                 with
+                 [
+                     src_t=OpenMesh::Vec3f
+         ,            dst_t=OpenMesh::VectorT<double,3>
+                 ]
+                 .\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(89) : see reference to function template instantiation 'void OpenMesh::vector_cast<src_t,dst_t,1>(const src_t &,dst_t &,OpenMesh::GenProg::Int2Type<1>)' being compiled
+                 with
+                 [
+                     src_t=OpenMesh::Vec3f
+         ,            dst_t=OpenMesh::VectorT<double,3>
+                 ]
+                 .\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(89) : see reference to function template instantiation 'void OpenMesh::vector_cast<src_t,dst_t,2>(const src_t &,dst_t &,OpenMesh::GenProg::Int2Type<2>)' being compiled
+                 with
+                 [
+                     src_t=OpenMesh::Vec3f
+         ,            dst_t=OpenMesh::VectorT<double,3>
+                 ]
+                 .\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(125) : see reference to function template instantiation 'void OpenMesh::vector_cast<src_t,dst_t,3>(const src_t &,dst_t &,OpenMesh::GenProg::Int2Type<3>)' being compiled
+                 with
+                 [
+                     src_t=OpenMesh::Vec3f
+         ,            dst_t=OpenMesh::VectorT<double,3>
+                 ]
+                 .\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(123) : while compiling class template member function 'OpenMesh::VectorT<double,3> OpenMesh::vector_caster<OpenMesh::VectorT<double,3>,OpenMesh::Vec3f>::cast(const src_t &)'
+                 with
+                 [
+                     src_t=OpenMesh::Vec3f
+                 ]
+                 .\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(153) : see reference to function template instantiation 'OpenMesh::VectorT<double,3> OpenMesh::vector_caster<OpenMesh::VectorT<double,3>,OpenMesh::Vec3f>::cast(const src_t &)' being compiled
+                 with
+                 [
+                     src_t=OpenMesh::Vec3f
+                 ]
+                 .\OpenMesh\OpenMesh/Core/IO/importer/ImporterT.hh(101) : see reference to class template instantiation 'OpenMesh::vector_caster<OpenMesh::VectorT<double,3>,OpenMesh::Vec3f>' being compiled
+                 .\OpenMesh\OpenMesh/Core/IO/importer/ImporterT.hh(100) : while compiling class template member function 'OpenMesh::VertexHandle OpenMesh::IO::ImporterT<Mesh>::add_vertex(const OpenMesh::Vec3f &)'
+                 with
+                 [
+                     Mesh=OMT::MyTriMesh
+                 ]
+                 .\OpenMesh\OpenMesh/Core/IO/MeshIO.hh(140) : see reference to class template instantiation 'OpenMesh::IO::ImporterT<Mesh>' being compiled
+                 with
+                 [
+                     Mesh=OMT::MyTriMesh
+                 ]
+                 OpenGLTemplate\glframework.cpp(68) : see reference to function template instantiation 'bool OpenMesh::IO::read_mesh<OMT::MyTriMesh>(Mesh &,const std::string &,OpenMesh::IO::Options &,bool)' being compiled
+                 with
+                 [
+                     Mesh=OMT::MyTriMesh
+                 ]
+     1>.\OpenMesh\OpenMesh/Core/Utils/vector_cast.hh(94): warning C4100: '_src' : unreferenced formal parameter (OpenGLTemplate\glframework.cpp)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\Win32\release\\QOpenGL_1_1.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Qt\Qt5.4.1\5.4\msvc2013_opengl\lib /LIBPATH:G:\QT\QT\5.5\msvc2013\lib /LIBPATH:"C:\Users\John\Desktop\Qt+OpenMesh+Linear system\QOpenGL_1_1_vs_\QOpenGL_1_1_vs_\OpenMesh\lib\Win32\release" /LIBPATH:"C:\Users\John\Desktop\Qt+OpenMesh+Linear system\QOpenGL_1_1_vs_\QOpenGL_1_1_vs_\LinearSystem_2013\lib\Win32\release" C:\Qt\Qt5.4.1\5.4\msvc2013_opengl\lib\qtmain.lib shell32.lib Qt5Core.lib "C:\Users\John\Desktop\Qt+OpenMesh+Linear system\QOpenGL_1_1_vs_\QOpenGL_1_1_vs_\OpenMesh\lib\Win32\release\OpenMeshCore_x86.lib" "C:\Users\John\Desktop\Qt+OpenMesh+Linear system\QOpenGL_1_1_vs_\QOpenGL_1_1_vs_\OpenMesh\lib\Win32\release\OpenMeshTools_x86.lib" "C:\Users\John\Desktop\Qt+OpenMesh+Linear system\QOpenGL_1_1_vs_\QOpenGL_1_1_vs_\LinearSystem_2013\lib\Win32\release\LinearSystemLib_MD.lib" glu32.lib C:\Qt\Qt5.4.1\5.4\msvc2013_opengl\lib\Qt5Widgets.lib C:\Qt\Qt5.4.1\5.4\msvc2013_opengl\lib\Qt5Gui.lib C:\Qt\Qt5.4.1\5.4\msvc2013_opengl\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\bin\Win32\release\QOpenGL_1_1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /CLRTHREADATTRIBUTE:STA /SAFESEH:NO "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" .\Intermediate\Win32\Release\qrc_textures.obj
+         .\Intermediate\Win32\Release\moc_glframework.obj
+         .\Intermediate\Win32\Release\moc_mainwindow.obj
+         .\Intermediate\Win32\Release\camera.obj
+         .\Intermediate\Win32\Release\glframework.obj
+         .\Intermediate\Win32\Release\main.obj
+         .\Intermediate\Win32\Release\mainwindow.obj
+         .\Intermediate\Win32\Release\openmeshframework.obj
+         .\Intermediate\Win32\Release\trackballcamera.obj
+         .\Intermediate\Win32\Release\transform.obj
+         QOpenGL_1_1.vcxproj -> C:\Users\John\Desktop\Qt+OpenMesh+Linear system\QOpenGL_1_1_vs_\QOpenGL_1_1_vs_\.\bin\Win32\release\QOpenGL_1_1.exe
+     1>Done Building Project "C:\Users\John\Desktop\Qt+OpenMesh+Linear system\QOpenGL_1_1_vs_\QOpenGL_1_1_vs_\QOpenGL_1_1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.29
