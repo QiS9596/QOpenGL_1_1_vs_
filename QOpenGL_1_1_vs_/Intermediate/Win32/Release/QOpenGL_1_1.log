@@ -1,7 +1,11 @@
-﻿Build started 2015/12/2 22:34:18.
+﻿Build started 2015/12/2 23:30:22.
      1>Project "C:\Users\John\Desktop\Qt+OpenMesh+Linear system\QOpenGL_1_1_vs_\QOpenGL_1_1_vs_\QOpenGL_1_1.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (.\Intermediate\Win32\Release\) contains files shared from another project (._QOpenGL_1_1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-     1>ClCompile:
+     1>CustomBuild:
+         Moc'ing glframework.h...
+         Qt: Untested Windows version 10.0 detected!
+         Uic'ing mainwindow.ui...
+       ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I.\OpenMesh /I.\LinearSystem_2013\include /I.\OpenGLTemplate /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtWidgets /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtGui /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtANGLE /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtCore /I.\release /I"C:\Qt\Qt5.4.1\5.4\msvc2013_opengl\mkspecs\win32-msvc2013" /I.\Intermediate\Win32\Release /nologo /W3 /WX- /MP /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D _USE_MATH_DEFINES /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /D QT_DLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Intermediate\Win32\Release\\" /Fd".\Intermediate\Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 Intermediate\Win32\Release\qrc_textures.cpp
          qrc_textures.cpp
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I.\OpenMesh /I.\LinearSystem_2013\include /I.\OpenGLTemplate /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtWidgets /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtGui /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtANGLE /IC:\Qt\Qt5.4.1\5.4\msvc2013_opengl\include\QtCore /I.\release /I"C:\Qt\Qt5.4.1\5.4\msvc2013_opengl\mkspecs\win32-msvc2013" /I.\Intermediate\Win32\Release /nologo /W3 /WX- /MP /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D _USE_MATH_DEFINES /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /D QT_DLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Intermediate\Win32\Release\\" /Fd".\Intermediate\Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 Intermediate\Win32\Release\moc_glframework.cpp Intermediate\Win32\Release\moc_mainwindow.cpp OpenGLTemplate\camera.cpp OpenGLTemplate\glframework.cpp main.cpp mainwindow.cpp OpenMesh\openmeshframework.cpp OpenGLTemplate\trackballcamera.cpp OpenGLTemplate\transform.cpp
@@ -21,17 +25,17 @@
      1>OpenMesh\openmeshframework.cpp(72): warning C4018: '<' : signed/unsigned mismatch
      1>OpenMesh\openmeshframework.cpp(67): warning C4189: 'result' : local variable is initialized but not referenced
      1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(40): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (OpenGLTemplate\glframework.cpp)
+     1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(40): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (Intermediate\Win32\Release\moc_glframework.cpp)
      1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(237): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (OpenGLTemplate\glframework.cpp)
          Automatically linking with LinearSystemLib_MD.lib.
-     1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(40): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (Intermediate\Win32\Release\moc_glframework.cpp)
      1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(237): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (Intermediate\Win32\Release\moc_glframework.cpp)
          Automatically linking with LinearSystemLib_MD.lib.
      1>OpenGLTemplate\glframework.cpp(105): warning C4100: 'e' : unreferenced formal parameter
-     1>OpenGLTemplate\glframework.cpp(364): warning C4101: 'color' : unreferenced local variable
-     1>OpenGLTemplate\glframework.cpp(381): warning C4100: 'objz' : unreferenced formal parameter
-     1>OpenGLTemplate\glframework.cpp(381): warning C4100: 'objy' : unreferenced formal parameter
-     1>OpenGLTemplate\glframework.cpp(381): warning C4100: 'objx' : unreferenced formal parameter
-     1>OpenGLTemplate\glframework.cpp(485): warning C4189: 'decrease' : local variable is initialized but not referenced
+     1>OpenGLTemplate\glframework.cpp(365): warning C4101: 'color' : unreferenced local variable
+     1>OpenGLTemplate\glframework.cpp(382): warning C4100: 'objz' : unreferenced formal parameter
+     1>OpenGLTemplate\glframework.cpp(382): warning C4100: 'objy' : unreferenced formal parameter
+     1>OpenGLTemplate\glframework.cpp(382): warning C4100: 'objx' : unreferenced formal parameter
+     1>OpenGLTemplate\glframework.cpp(490): warning C4189: 'decrease' : local variable is initialized but not referenced
      1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(40): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (mainwindow.cpp)
      1>c:\users\john\desktop\qt+openmesh+linear system\qopengl_1_1_vs_\qopengl_1_1_vs_\linearsystem_2013\include\HardConstraintSLSBuilderSpec.h(237): warning C4189: 'nTotalCons' : local variable is initialized but not referenced (mainwindow.cpp)
          Automatically linking with LinearSystemLib_MD.lib.
@@ -156,4 +160,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.43
+Time Elapsed 00:00:04.92

@@ -155,7 +155,7 @@ public:
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "QT OpenGL Template", 0));
         actionExit->setText(QApplication::translate("MainWindow", "Exit", 0));
         actionLoad_Model->setText(QApplication::translate("MainWindow", "Load Model...", 0));
-        SaveVertex->setText(QApplication::translate("MainWindow", "SaveVertex", 0));
+        SaveVertex->setText(QApplication::translate("MainWindow", "SaveFace", 0));
         drawBorder_button->setText(QApplication::translate("MainWindow", "DrawBorder", 0));
         groupBox->setTitle(QApplication::translate("MainWindow", "Display", 0));
         checkBoxTrackball->setText(QApplication::translate("MainWindow", "Enable Trackball", 0));

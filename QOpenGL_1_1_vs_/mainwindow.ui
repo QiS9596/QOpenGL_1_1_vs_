@@ -30,7 +30,7 @@
       <item>
        <widget class="QPushButton" name="SaveVertex">
         <property name="text">
-         <string>SaveVertex</string>
+         <string>SaveFace</string>
         </property>
        </widget>
       </item>

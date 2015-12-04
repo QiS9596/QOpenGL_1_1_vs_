@@ -76,6 +76,7 @@ public:
 //===============================
 public:
 	void SaveCurrentVertex();
+	void SaveCurrentFace();
 	//OMT::MyTriMesh temp;
 	//OMT::MyTriMesh::VertexHandle vhandle[100];
 	void selectBorder();
@@ -89,6 +90,7 @@ private:
 	std::vector<int> selectPoints;
 	std::vector<int> border;
 	std::vector<int> sortedBorder;
+	std::vector<int> selectedFaces;
 	int current = 0;
 //===============================
 private:
@@ -113,6 +115,8 @@ private:
 	float getDistance(GLfloat verx, GLfloat very, GLfloat verz);
 	void drawCurrentFace();
 	void drawBorder();
+	void drawStoredFace();
+	bool isRecorded(int index, std::vector<int> & memory);
 	//use iterator to select the point in the SelectPoint to Border
 	//only if the point from set SelectPoint's onering vv iterator 
 	//can get a point not belone to the set SelectPoint, will we put
