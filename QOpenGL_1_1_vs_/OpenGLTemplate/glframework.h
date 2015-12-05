@@ -79,6 +79,7 @@ public:
 	void SaveCurrentFace();
 	//OMT::MyTriMesh temp;
 	//OMT::MyTriMesh::VertexHandle vhandle[100];
+	void selectVertex();
 	void selectBorder();
 	void sortBorder();
 	void FindPointInMTriMesh(int index,OMT::VIter & v_it);
@@ -100,7 +101,7 @@ private:
 	QOpenGLTexture * wall3;
 	QOpenGLTexture * LoadGLTextures(const char * name);
 	void drawScene();
-
+	bool XOR(bool flag1, bool flag2);
 private:
 	GLdouble current_modelview_matrix[16],
 		current_projection_matrix[16];
@@ -113,6 +114,7 @@ private:
 	void findNearestVertex(GLfloat objx, GLfloat objy, GLfloat objz);
 	void findNearestFace();
 	float getDistance(GLfloat verx, GLfloat very, GLfloat verz);
+	void drawSelectedVertex();
 	void drawCurrentFace();
 	void drawBorder();
 	void drawStoredFace();

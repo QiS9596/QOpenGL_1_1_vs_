@@ -153,7 +153,7 @@ public:
   typedef Iterators::GenericCirculatorT<This,  This::VertexHandle,  This::HalfedgeHandle,
           &Iterators::GenericCirculatorBaseT<This>::toOppositeHalfedgeHandle, false>
   VertexIHalfedgeCCWIter;
-
+public:
   /**
    * Enumerates incident faces in a clockwise fashion.
    */
