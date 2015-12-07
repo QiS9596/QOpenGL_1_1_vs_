@@ -92,6 +92,7 @@ public:
 	void FindPointInMTriMesh(int index,OMT::VIter & v_it);
 	void FindFaceInMTriMesh(int index, OMT::FIter & f_it);
 	bool IsInTheBorder(int index);
+	void calculate2Dcoordinates();
 private:
 	OMT::VIter result;
 	//OMT::MyTraits::Point result;
@@ -131,8 +132,8 @@ private:
 	//only if the point from set SelectPoint's onering vv iterator 
 	//can get a point not belone to the set SelectPoint, will we put
 	//it into the border set
-	void calculate2Dcoordinates();
-	float calculateBorderLengthIn3DMesh;
+
+	float calculateBorderLengthIn3DMesh();
 	float getDistance(float x1,float y1,float z1,float x2,float y2,float z2);
 protected:
     /* More event: https://doc-snapshots.qt.io/qt5-5.4/qwidget.html */
