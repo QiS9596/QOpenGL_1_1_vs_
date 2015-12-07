@@ -45,7 +45,8 @@ SOURCES += main.cpp\
     OpenGLTemplate/transform.cpp \
     OpenGLTemplate/camera.cpp \
     OpenGLTemplate/trackballcamera.cpp \
-    Utilities/righclickmenu.cpp
+    Utilities/righclickmenu.cpp \
+    OpenGLTemplate/subwidget.cpp
 
 HEADERS  += mainwindow.h \
     OpenGLTemplate/glstdafx.h \
@@ -53,7 +54,8 @@ HEADERS  += mainwindow.h \
     OpenGLTemplate/camera.h \
     OpenGLTemplate/trackballcamera.h \
     OpenGLTemplate/glframework.h \
-    Utilities/rightclickmenu.h
+    Utilities/rightclickmenu.h \
+    OpenGLTemplate/subwidget.h
 
 FORMS    += mainwindow.ui
 

@@ -55,6 +55,16 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Generated Files\Debug_x64">
+      <UniqueIdentifier>{1956470a-3b4e-4956-9272-de5adba1bd71}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_x64">
+      <UniqueIdentifier>{53fe0a02-3ab4-4a22-8b64-f78b03129e5a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OpenGLTemplate\camera.cpp">
@@ -78,20 +88,32 @@
     <ClCompile Include="OpenGLTemplate\transform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Intermediate\$(PlatformName)\$(ConfigurationName)\qrc_textures.cpp">
-      <Filter>Generated Files</Filter>
+    <ClCompile Include="Intermediate\Win32\Debug\moc_glframework.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Intermediate\x64\Debug\moc_glframework.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Intermediate\Win32\Release\moc_glframework.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Intermediate\x64\Release\moc_glframework.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
     </ClCompile>
     <ClCompile Include="Intermediate\Win32\Debug\moc_mainwindow.cpp">
       <Filter>Generated Files\Debug_Win32</Filter>
     </ClCompile>
+    <ClCompile Include="Intermediate\x64\Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
     <ClCompile Include="Intermediate\Win32\Release\moc_mainwindow.cpp">
       <Filter>Generated Files\Release_Win32</Filter>
     </ClCompile>
-    <ClCompile Include="Intermediate\Win32\Debug\moc_glframework.cpp">
-      <Filter>Generated Files\Debug_Win32</Filter>
+    <ClCompile Include="Intermediate\x64\Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
     </ClCompile>
-    <ClCompile Include="Intermediate\Win32\Release\moc_glframework.cpp">
-      <Filter>Generated Files\Release_Win32</Filter>
+    <ClCompile Include="GeneratedFiles\qrc_textures.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -115,6 +137,9 @@
     </ClInclude>
     <ClInclude Include="OpenGLTemplate\transform.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

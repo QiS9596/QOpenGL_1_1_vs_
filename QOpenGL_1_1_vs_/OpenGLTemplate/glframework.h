@@ -64,6 +64,13 @@
 
 YGL_BEGIN_NAMESPACE
 
+struct myPoint{
+	int idxInMesh;
+	float _2dx,_2dy;
+	float colorR, colorG, colorB;
+};
+
+
 // https://doc-snapshots.qt.io/qt5-5.4/qopenglwidget.html
 class GLFramework : public QOpenGLWidget, protected QOpenGLFunctions_1_1
 {
@@ -92,6 +99,7 @@ private:
 	std::vector<int> border;
 	std::vector<int> sortedBorder;
 	std::vector<int> selectedFaces;
+	std::vector<myPoint> _2DPoints;
 	int current = 0;
 //===============================
 private:
@@ -123,6 +131,9 @@ private:
 	//only if the point from set SelectPoint's onering vv iterator 
 	//can get a point not belone to the set SelectPoint, will we put
 	//it into the border set
+	void calculate2Dcoordinates();
+	float calculateBorderLengthIn3DMesh;
+	float getDistance(float x1,float y1,float z1,float x2,float y2,float z2);
 protected:
     /* More event: https://doc-snapshots.qt.io/qt5-5.4/qwidget.html */
     void mousePressEvent(QMouseEvent *e);
